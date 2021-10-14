@@ -15,7 +15,7 @@ app.use(express.static(path.join(__dirname, '../client/build')));
 app.use(require("./server/routes/api"));
 
 const { ApolloServer } = require('apollo-server-express');
-const server = new ApolloServer({
+const server = await new ApolloServer({
   typeDefs,
   resolvers,
   context:authMiddleware
