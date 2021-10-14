@@ -26,12 +26,14 @@ search for new books to read | keep a list of books to purchase
 
 ## 📹 Video Demonstration
 
-**NOTE:** If the video does not appear below, try clicking [here](https://drive.google.com/file/d/1LvNemQLj20uyAa87XQCT_T9dXt9qEMgr/view) to view on [Google Drive](https://drive.google.com/file/d/1LvNemQLj20uyAa87XQCT_T9dXt9qEMgr/view).
+**NOTE:** If the video does not appear below, try clicking [here](https://drive.google.com/file/d/1LvNemQLj20uyAa87XQCT_T9dXt9qEMgr/view) to view on [Google Drive](https://drive.google.com/file/d/1LvNemQLj20uyAa87XQCT_T9dXt9qEMgr/view). 
+<br/><br/>
 
 
 <video controls width="80%" align="center" src="./client/public/images/mern-google-book-search.webm" type="video/webm"> 
     Sorry, your browser doesn't support embedded videos.
 </video>
+
 <br/><br/>
 
 ## ❗❗ Issues
