@@ -25,7 +25,7 @@ search for new books to read | keep a list of books to purchase
 <br/><br/>
 
 ## 📹 Video Demonstration
-<video controls width="80%" align="center" src="./client/public/images/MERN Google Book Search.webm" type="video/webm"> 
+<video controls width="80%" align="center" src="./client/public/images/mern-google-book-search.webm" type="video/webm"> 
     Sorry, your browser doesn't support embedded videos.
 </video>
 <br/><br/>
