@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const routes = require("./routes");
+const routes = require("./server/routes");
 
 const PORT = process.env.PORT || 3000;
 
@@ -13,12 +13,10 @@ app.use(routes);
 
 mongoose.connect( process.env.MONGODB_URI || "mongodb://localhost/mern-book-search", {
   useNewUrlParser: true,
-  useFindAndModify: false,
   useUnifiedTopology: true,
-  useCreateIndex: true
 });
 
-app.use(require("./routes/api.js"));
+app.use(require("./server/routes/api"));
 
 app.listen(PORT, () => {
     console.log(`App running on port ${PORT}!`);
