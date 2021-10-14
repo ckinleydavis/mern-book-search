@@ -10,5 +10,12 @@ db.once('open', async () => {
         password: 'password'
     });
 
+    await User.create({
+        username: 'davis',
+        email: 'gmail@gmail.com',
+        password: 'password'
+    });
+
+
     process.exit();
 });
